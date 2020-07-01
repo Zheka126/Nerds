@@ -1,0 +1,288 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    display: block;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+.visually_hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+  
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main_header {
+    min-height: 545px;
+    font-size: 20px;
+    background-color: #eeeeee;
+}
+
+.main_navigation {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 85px;
+}
+
+.main_navigation img {
+    margin-top: -40px;
+}
+
+.site_navigation {
+    display: flex;
+}
+
+.site_navigation li,
+.user_navigation li {
+    margin: 0 25px;
+    padding-bottom: 10px;
+}
+
+.site_navigation a:hover, 
+.site_navigation a:focus,
+.user_navigation a:hover, 
+.user_navigation a:focus {
+    color: #fb565a;
+}
+
+.user_navigation li::before {
+    content: "";
+    background-image: url("../img/cart-icon.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+
+.current_page {
+    border-bottom: 2px solid #fb565a;
+}
+
+.slider {
+    margin-top: 85px;
+}
+
+.slider p {
+    line-height: 30px;
+}
+
+.slider .button {
+    width: 220px;
+    margin-top: 30px;
+    background-color: #fb565a;
+}
+
+.slider .button:hover, 
+.slider .button:focus {
+    background-color: #e74246;
+}
+
+.slide_1, .slide_2, .slide_3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.features p {
+    line-height: 24px;
+}
+
+
+.features h3 {
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+
+.features .button_1 {
+    background-color: #fb565a;
+    margin-top: 40px;
+}
+
+.button_1:hover, 
+.button_1:focus {
+    background-color: #e74246;
+}
+
+.features .button_2 {
+    background-color: #00ca74;
+    margin-top: 40px;
+}
+
+.button_2:hover, 
+.button_2:focus {
+    background-color: #00bc6c;
+}
+
+.features .button_3 {
+    background-color: #efc84a;
+    margin-top: 40px;
+}
+
+.button_3:hover, 
+.button_3:focus {
+    background-color: #eab534;
+}
+
+.studio {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about_studio {
+    max-width: 655px;
+}
+
+.about_studio h2 {
+    margin: 40px 0;
+}
+
+.about_studio li {
+    margin-bottom: 35px;
+}
+
+.about_studio p {
+    line-height: 24px;
+}
+
+.orders {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.studio .percents {
+    display: flex;
+}
+
+.percents li {
+    width: 100px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.percents h2 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.year {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.address {
+    position: absolute;
+    width: 235px;
+    height: 200px;
+    margin-left: 370px;
+    margin-top: -365px;
+    padding: 55px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.address span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.address p {
+    margin-top: 36px;
+    color: #666666;
+}
+
+.address button {
+    width: 220px;
+    margin-top: 30px;
+    background-color: #fb565a;
+}
+
+.address button:hover,
+.address button:focus {
+    background-color: #e74246;
+}
+
+.main_footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.main_footer svg {
+    padding: 20px;
+    border-radius: 35px;
+    background-color: #e1e1e1;
+}
+
+.footer_social {
+    display: flex;
+    list-style: none;
+}
+
+.footer_social li {
+    margin-left: 15px;
+}
+
+.footer_text h2 {
+    margin: 0;
+}
