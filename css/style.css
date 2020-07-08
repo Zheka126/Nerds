@@ -29,6 +29,7 @@ a {
     color: #ffffff;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .visually_hidden {
