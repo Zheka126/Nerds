@@ -19,7 +19,7 @@
             <ul class="site_navigation">
                 <li class="current_page"><a>Студия</a></li>
                 <li><a href="">Клиенты</a></li>
-                <li><a href="">Магазин</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
             <ul class="user_navigation">
@@ -127,11 +127,14 @@
             </div>
         </section>
 
-        <section class="portfolio">
-            <ul><a href=""><img src="" alt="htmlacademy"></a></ul>
-            <ul><a href=""><img src="" alt="barbershopborodinsky"></a></ul>
-            <ul><a href=""><img src="" alt="pink"></a></ul>
-            <ul><a href=""><img src="" alt="mishka"></a></ul>
+        <section class="portfolio_container">
+            <ul class="portfolio">
+                <li><a href="https://htmlacademy.ru/study"><img src="img/logo1.png" alt="htmlacademy"></a></li>
+                <li><a href="https://zloydedd.github.io/Barbershop/"><img src="img/logo2.png"
+                            alt="barbershopborodinsky"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=zf99kdFw9b8"><img src="img/logo3.png" alt="pink"></a></li>
+                <li><a href="https://mishkanyc.com/"><img src="img/logo4.png" alt="mishka"></a></li>
+            </ul>
         </section>
 
         <section class="contacts">
@@ -145,7 +148,29 @@
                 <span>NЁRDS DESIGN STUDIO</span>
                 <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                 <p>+7 (812) 275-75-75</p>
-                <button class="button">Напишите нам</button>
+                <button class="button open_button">Напишите нам</button>
+            </div>
+        </section>
+
+        <section class="write_us_container">
+            <div class="write_us">
+                <h2>Напишите нам</h2>
+                <button class="close_button"><img src="img/close-cross.svg" alt=""></button>
+                <div class="name_und_email">
+                    <div>
+                        <p>Ваше имя:</p>
+                        <input type="text" placeholder="Имя Фамилия" name="" id="">
+                    </div>
+                    <div>
+                        <p>Ваш e-mail:</p>
+                        <input type="text" placeholder="email@example.com" name="" id="">
+                    </div>
+                </div>
+                <div class="textarea">
+                    <p>Текст письма:</p>
+                    <textarea placeholder="В свободной форме" id="" cols="102" rows="7"></textarea>
+                </div>
+                <button class="button">Отправить</button>
             </div>
         </section>
     </main>
@@ -184,6 +209,8 @@
 
         <p class="footer_developers">Developed by ____ <a href="">Zheka126</a></p>
     </footer>
+
+    <script src="Scripts\script.js"></script>
 </body>
 
 </html>
